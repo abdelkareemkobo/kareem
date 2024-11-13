@@ -5,7 +5,8 @@ dataset:
 
 # FL experimental settings
 num_clients: 20 # total number of clients
-num_rounds: 200
+num_rounds: 1
 partitioner:
   _target_: flwr_datasets.partitioner.IidPartitioner
   num_partitions: 20
+ 

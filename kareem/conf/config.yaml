@@ -1,7 +1,7 @@
 # Federated Instruction Tuning
 ---
 model:
-  name: "mistralai/Mistral-7B-v0.3"
+  name: "HuggingFaceTB/SmolLM-135M"
   quantization: 4 # 8 or 4 if you want to do quantization with BitsAndBytes
   gradient_checkpointing: True
   lora:
