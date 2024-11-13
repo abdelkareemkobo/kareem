@@ -1,6 +1,6 @@
 """kareem: A Flower / FlowerTune app."""
 
-from kareem.client_app import set_parameters
+from kareem.client import set_parameters
 from kareem.models import get_model
 
 

@@ -12,10 +12,10 @@ from flwr.client import ClientApp
 from flwr.common import Context, ndarrays_to_parameters
 from flwr.server import ServerApp, ServerAppComponents, ServerConfig
 
-from kareem.client_app import gen_client_fn, get_parameters
+from kareem.client import gen_client_fn, get_parameters
 from kareem.dataset import get_tokenizer_and_data_collator_and_propt_formatting
 from kareem.models import get_model
-from kareem.server_app import fit_weighted_average, get_evaluate_fn, get_on_fit_config
+from kareem.server import fit_weighted_average, get_evaluate_fn, get_on_fit_config
 
 # Avoid warnings
 warnings.filterwarnings("ignore", category=UserWarning)
